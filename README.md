@@ -14,8 +14,11 @@ Este repositorio contiene los códigos y herramientas necesarias para generar la
 
 ## Cómo usarlo
 Para generar las gráficas es importante tener el archivo de resultados del cuestionario en el formato y ubicación correspondiente, así como tener instalados los programas antes señalados. Teniendo listo todo ello, hay que seguir los siguientes pasos. 
+
 1. En caso de haber instalado RStudio, abrir el proyecto con el proyecto "Graficas-clima-organizacional.Rproj" suelto en esta carpeta. Si no tener Rstudio, abrir directamente la versión instalada de R. 
 2. Abrir el Rscript "Graficas-clima-organizacional.R" con R o RStudio. 
 3. Una ves abierto el archivo, se va a reemplazar las secciones que indican el [Nombre del documento] con el nombre del archivo con los resultados finales del cuestionario.
 4. Ejecutar el script "Graficas-clima-organizacional.R".
 
+Una vez hecho esto, se van a generar las gráficas con los resultados en la carpeta de "02_graficas". Éstas tendrán el siguiente formato.
+![](02_graficas/p_1_fortaleza_de_las_politicas_anticorrupcion.png)

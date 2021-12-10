@@ -132,12 +132,12 @@ for (i in lista_preguntas) {
     arrange(n) %>% 
     mutate(fraccion = n/sum(n),
            ymax = cumsum(fraccion),
-           ymin = ymax-fraccion,
+           ymin = ymax - fraccion,
            pregunta = reorder(pregunta, -n)) %>% 
     ggplot(aes(ymax = ymax, ymin = ymin, 
                xmax = 4, xmin = 3, 
                fill = pregunta)) +
-    coord_polar(theta="y") +
+    coord_polar(theta = "y") +
     geom_rect() +
     geom_text_repel(aes(label = as.character(paste0("atop(bold(",
                                                     "\"",
